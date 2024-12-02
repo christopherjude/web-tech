@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Style the header */
+header {
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+    background: #111111;
+    color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Style the navigation */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 20px;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #ff4655;
+    background-color: #333333;
+    border-radius: 15px;
+}
+
+nav ul li a::after {
+    content: ""; /* Empty content for the underline */
+    position: absolute;
+    bottom: 10px; /* Distance below the text */
+    left: 10%; /* Adjust start position */
+    width: 80%; /* Adjust width of the underline */
+    height: 3px; /* Thickness of the underline */
+    background-color: #ff4655; /* Red color for the underline */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: center; /* Scale from the center */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+    opacity: 0; /* Initially transparent */
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1); /* Expand to full width */
+    opacity: 1; /* Make visible */
+}

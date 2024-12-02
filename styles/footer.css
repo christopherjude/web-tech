@@ -1,0 +1,70 @@
+/* General Footer Styling */
+.footer {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Links (Top Row) */
+.footer-links {
+    background-color: #292929;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Social Icons Section */
+.footer-social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+/* Logos Section */
+.footer-logos {
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    height: 30px;
+    margin: 0 15px;
+}
+
+/* Footer Text */
+.footer-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Legal Links Section */
+.footer-legal-links {
+    margin-bottom: 20px;
+}
+
+.footer-legal-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Rating Icons Section */
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-rating-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
