@@ -25,17 +25,10 @@ body {
 }
 
 /* Style the main content */
-main {
-    margin: 20px 0;
-}
 
 main h2 {
     margin-bottom: 10px;
     font-size: 2em;
-}
-
-main p {
-    margin-bottom: 20px;
 }
 
 /* Style the footer */
