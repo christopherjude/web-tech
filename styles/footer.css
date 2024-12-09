@@ -1,80 +1,80 @@
 /* General Footer Styling */
 .footer {
-    background-color: #111111;
-    color: #fff;
-    text-align: center;
-    padding: 20px 10px;
-    font-family: Arial, sans-serif;
-    padding-top: 0px;
-    padding-left: 0px;
+  background-color: #111111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: Arial, sans-serif;
+  padding-top: 0px;
+  padding-left: 0px;
 }
 
 /* Footer Links (Top Row) */
 .footer-links {
-    background-color: #292929;
-    margin-bottom: 20px;
-    padding: 30px 40px;
+  background-color: #292929;
+  margin-bottom: 20px;
+  padding: 30px 40px;
 }
 
 .footer-link {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    padding: 20px;
-    border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 15px;
 }
 
-.footer-link:hover{
-    background-color: #444444;
-    border-radius: 15px;
+.footer-link:hover {
+  background-color: #444444;
+  border-radius: 15px;
 }
 
 /* Social Icons Section */
 .footer-social-icons {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .social-icon img {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
 }
 
 /* Logos Section */
 .footer-logos {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
-    height: 50px;
-    margin: 0 15px;
+  height: 50px;
+  margin: 0 15px;
 }
 
 /* Footer Text */
 .footer-text {
-    font-size: 14px;
-    margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 /* Legal Links Section */
 .footer-legal-links {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-legal-link {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 /* Rating Icons Section */
 .footer-icons {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-rating-icon {
-    width: 90px;
-    height: 90px;
-    margin: 0 10px;
+  width: 90px;
+  height: 90px;
+  margin: 0 10px;
 }

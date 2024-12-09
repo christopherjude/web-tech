@@ -1,0 +1,56 @@
+/* Banner Container */
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay Content */
+.banner-container .overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+    text-align: left;
+}
+
+.banner-container .overlay h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-container .overlay p {
+    margin: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.banner-container .cta-button {
+    background-color: #000; 
+    color: #fff; 
+    padding: 15px 30px;
+    font-size: 1rem; 
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner-container .cta-button:hover {
+    background-color: #fff;
+    color: #000;
+}
