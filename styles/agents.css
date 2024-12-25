@@ -1,0 +1,55 @@
+
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.agents-main {
+    padding: 20px;
+    padding-top: 80px;
+    background-image: url("../assets/images/agents/bg.avif");
+}
+
+.agents-main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 3rem; /* Adjust for similar size as in the image */
+    text-transform: uppercase; /* Makes the text uppercase */
+    margin-bottom: 20px;
+    color: white;
+}
+
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.agent-card {
+    background-color: #1a1a1d;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.agent-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.agent-card h3 {
+    background-color: #26262b;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.agent-card p {
+    color: #aaa;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+}
