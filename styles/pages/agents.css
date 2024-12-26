@@ -8,14 +8,14 @@
 .agents-main {
     padding: 20px;
     padding-top: 80px;
-    background-image: url("../assets/images/agents/bg.avif");
+    background-image: url("../../assets/images/agents/bg.avif");
 }
 
 .agents-main h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Bold */
-    font-size: 3rem; /* Adjust for similar size as in the image */
-    text-transform: uppercase; /* Makes the text uppercase */
+    font-weight: 700;
+    font-size: 3rem; 
+    text-transform: uppercase;
     margin-bottom: 20px;
     color: white;
 }
