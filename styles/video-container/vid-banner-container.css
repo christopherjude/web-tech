@@ -1,9 +1,10 @@
 /* Vid Banner Container */
 .vid-banner-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 20px;
     background-color: #f5f5f5; /* Light beige color matching the design */
     font-family: 'Montserrat', sans-serif;
     background-image: url('../../assets/images/banners/vb-bg.avif');
@@ -13,12 +14,12 @@
 
 /* Left Section Styling */
 .vid-banner-container .left {
-    flex: 1;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .vid-banner-container .left h2 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #0f0f0f;
     margin: 0;
@@ -38,7 +39,7 @@
     display: inline-block;
     background-color: #ff4655;
     color: #fff;
-    padding: 15px 30px;
+    padding: 10px 20px;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
@@ -55,7 +56,6 @@
 
 /* Right Section Styling */
 .vid-banner-container .right {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +66,30 @@
     height: auto;
     border-radius: 10px; /* Add a smooth border effect for the video */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (min-width: 768px) {
+    .vid-banner-container {
+        flex-direction: row;
+        padding: 50px 100px;
+    }
+
+    .vid-banner-container .left {
+        flex: 1;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .vid-banner-container .left h2 {
+        font-size: 3.5rem;
+    }
+
+    .vid-banner-container .left .cta-button {
+        padding: 15px 30px;
+    }
+
+    .vid-banner-container .right {
+        flex: 1;
+    }
 }

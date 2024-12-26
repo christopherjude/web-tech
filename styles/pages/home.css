@@ -38,6 +38,7 @@
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .news-container .card {
@@ -48,6 +49,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  min-width: 280px;
+  max-width: 100%;
 }
 
 .news-container .card img {
@@ -97,4 +100,20 @@
   color: #555;
   margin: 0;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .news-container .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-container .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .news-container .card {
+    min-width: 100%;
+  }
 }
