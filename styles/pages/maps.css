@@ -6,6 +6,7 @@
 }
 
 .maps-main h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
   font-weight: 700;
   margin-bottom: 20px;
@@ -18,6 +19,7 @@
 }
 
 .map-section h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.8em;
   font-weight: 700;
   margin-bottom: 10px;
