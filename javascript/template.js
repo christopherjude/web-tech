@@ -1,9 +1,12 @@
-// Function to include HTML content
+const isLocal = window.location.hostname === "localhost" || window.location.protocol === "file:";
+const basePath = isLocal ? "." : "/web-tech"; 
+
 function load_tag_content(tagName, filePath) {
-    fetch(filePath)
+    const fullPath = `${basePath}/${filePath}`;
+    fetch(fullPath + '?v=' + Date.now()) 
         .then(response => {
             if (!response.ok) {
-                throw new Error(`Failed to fetch ${filePath}`);
+                throw new Error(`Failed to fetch ${fullPath}`);
             }
             return response.text();
         })
@@ -13,6 +16,5 @@ function load_tag_content(tagName, filePath) {
         .catch(error => console.error('Error:', error));
 }
 
-// Load header and footer
-load_tag_content('header', '../components/header.html');
-load_tag_content('footer', '../components/footer.html');
+load_tag_content('header', 'components/header.html');
+load_tag_content('footer', 'components/footer.html');
