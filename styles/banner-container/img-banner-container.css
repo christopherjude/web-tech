@@ -11,14 +11,14 @@
 /* Background Styling for Each Section */
 .lr {
     background-color: #ff4655;
-    background-image: url('../assets/images/banners/ib-bg-red.avif');
+    background-image: url('/assets/images/banners/ib-bg-red.avif');
     background-size: cover;
     background-position: center;
 }
 
 .rl {
     background-color: #f5f5f5;
-    background-image: url('../assets/images/banners/ib-bg-white.webp');
+    background-image: url('/assets/images/banners/ib-bg-white.webp');
     background-size: cover;
     background-position: center;
 }
