@@ -1,12 +1,9 @@
-const isLocal = window.location.hostname === "localhost" || window.location.protocol === "file:";
-const basePath = isLocal ? "." : "/web-tech"; 
-
+// Function to include HTML content
 function load_tag_content(tagName, filePath) {
-    const fullPath = `${basePath}/${filePath}`;
-    fetch(fullPath + '?v=' + Date.now()) 
+    fetch(filePath)
         .then(response => {
             if (!response.ok) {
-                throw new Error(`Failed to fetch ${fullPath}`);
+                throw new Error(`Failed to fetch ${filePath}`);
             }
             return response.text();
         })
@@ -16,5 +13,6 @@ function load_tag_content(tagName, filePath) {
         .catch(error => console.error('Error:', error));
 }
 
-load_tag_content('header', 'components/header.html');
-load_tag_content('footer', 'components/footer.html');
+// Load header and footer
+load_tag_content('header', '../components/header.html');
+load_tag_content('footer', '../components/footer.html');
