@@ -1,83 +1,96 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-left: 20px;
-  }
-  
-  /* Guns Grid Layout */
-  #guns-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Gun Card */
-  .gun-card {
-    background-color: #f3f3f3;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-  }
-  
-  .gun-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-  }
-  
-  /* Gun Image */
-  .gun-image-container {
-    background-color: #e2dacd;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    border-radius: 5px;
-  }
-  
-  .gun-image-container img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-  
-  /* Gun Name */
-  .gun-card h3 {
-    font-size: 1.5em;
-    font-weight: 700;
-    margin-top: 10px;
-  }
-  
-  /* Gun Type */
-  .gun-type {
-    font-size: 0.9em;
-    color: #777;
-    margin-top: 5px;
-    font-weight: 600;
-  }
-  
-  .gun-type span {
-    color: #000;
-  }
-  
-  /* Gun Description */
-  .gun-description {
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 10px;
-    line-height: 1.5;
-  }
-  
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.arsenal-main {
+  padding: 20px;
+  padding-top: 80px;
+}
+
+.arsenal-main h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Guns Grid Layout */
+#guns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Gun Card */
+.gun-card {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.gun-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Gun Image */
+.gun-image-container {
+  background-color: #e2dacd;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.gun-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Gun Name */
+.gun-card h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Gun Type */
+.gun-type {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.gun-type span {
+  color: #000;
+}
+
+/* Gun Description */
+.gun-description {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
