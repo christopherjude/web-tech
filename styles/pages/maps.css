@@ -107,11 +107,11 @@
   }
 
   .map-image-container{
-    width: 400px;;
+    width: 90vw;
   }
 
   .map-image-container img{
-    max-width: 400px;
+    /* max-width: 400px; */
   }
 
   .map-section p {
