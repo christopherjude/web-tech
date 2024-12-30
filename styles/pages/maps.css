@@ -110,8 +110,12 @@
     width: 90vw;
   }
 
-  .map-image-container img{
-    /* max-width: 400px; */
+  .map-details p {
+    width: 90vw;
+  }
+
+  .map-details {
+    padding-left: 0px;
   }
 
   .map-section p {
