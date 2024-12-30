@@ -51,3 +51,11 @@ iframe {
     border: none;
     display: block;
 }
+
+@media (min-width: 1500px) {
+    main {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+        background-color: #333;
+    }
+}

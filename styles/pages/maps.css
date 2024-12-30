@@ -13,6 +13,16 @@
   text-transform: uppercase;
 }
 
+@media (min-width: 1500px) {
+  .maps-main h1, h2, p {
+      padding-left: 15% !important;
+  }
+
+  .maps-main p{
+    width: 70% !important;
+  }
+}
+
 /* Individual Map Section */
 .map-section {
   margin-bottom: 60px;

@@ -15,6 +15,13 @@ h1 {
 .arsenal-main {
   padding: 20px;
   padding-top: 80px;
+  background-color: #f9f9f9 !important;
+}
+
+@media (min-width: 1500px) {
+  .arsenal-main h1 {
+      padding-left: 15% !important;
+  }
 }
 
 .arsenal-main h2 {
